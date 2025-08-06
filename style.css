@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+body {
+    background-color: black;
+    overflow: hidden; /* Hide overflow */
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.nav-list {
+    height: 75px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-left: 8%;
+    margin-right: 8%;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.logo{
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.logo button{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    opacity: 0.92;
+    transform: scale(0.92);
+    background-color: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.logo button:hover {
+    opacity: 1;
+    transform: scale(1);
+    transition: all 0.3s linear;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    left: 10px;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.center a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Space Grotesk', sans-serif;
+    opacity: 0.9;
+    transform: scale(0.9);
+}
+
+.center li{
+    opacity: 0.9;
+    transform: scale(0.9);
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.center li:hover {
+    opacity: 1;
+    transform: scale(1);
+    transition: all 0.3s linear;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.btns{
+    height: 50%;
+    width: 200px;
+    /* background-color: #fff; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.btns button {
+    height: 30px;
+    width: 80px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: 1px solid white;
+    font-family: 'Space Grotesk', sans-serif;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+    letter-spacing: 1px;
+}
+
+.btns button:hover {
+    height: 30px;
+    width: 80px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(0, 0, 0);
+    color: black;
+    border: 1px solid white;
+    font-family: 'Space Grotesk', sans-serif;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+    background-color: white;
+    transition: all 0.3s linear;
+    letter-spacing: 1px;
+}
+
+/* Remove all .btn, .btn::before, .btn::after, and related glow styles */
+
+
+@media screen and (max-width: 752px) {
+    .center {
+        display: none;
+        font-family: 'Space Grotesk', sans-serif;
+    }
+}
+
+.hero{
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: visible;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.hero-content {
+    position: relative;
+    bottom: 70px;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+h1{
+    font-weight: 1000;
+    font-size: 45px;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.hero .h1 {
+    font-size: 45px;
+    font-family: 'Space Grotesk', sans-serif;
+    background: linear-gradient(to right, #FF1CF7, #00F0FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 1000;
+}
+
+.active-btn {
+    background-color: white !important;
+    color: black !important;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.hero-content p{
+    padding: 15px;
+    font-size: 18px;
+    font-family: 'Space Grotesk', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 12px;
+    /* background-color: #fff; */
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.8;
+}
+
+.looper{
+    position: fixed; /* Take out of normal flow */
+    bottom: 0;       /* Stick to bottom */
+    left: 0;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;   /* Make sure it's on top */
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.btn {
+    padding: 1rem 2.5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #fff;
+    background: linear-gradient(45deg, #00F0FF, #FF1CF7);
+    border: none;
+    border-radius: 2.5rem;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 0 rgba(0, 240, 255, 0);
+    opacity: 0.9;
+    transform: scale(0.9);
+    font-family: 'Space Grotesk', sans-serif;
+}
+.btn:hover {
+    opacity: 1;
+    transform: scale(1);
+    transition: all 0.3s linear;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.btn::before,
+.btn::after {
+    pointer-events: none;
+}
+
+@media screen and (max-width: 501px) {
+    .btns {
+        gap: 10px;
+        font-family: 'Space Grotesk', sans-serif;
+    }
+    
+    .btns button{
+        width: 80px;
+        font-family: 'Space Grotesk', sans-serif;
+    }
+
+    .nav-list{
+        margin-left: 4%;
+        margin-right: 4%;
+        font-family: 'Space Grotesk', sans-serif;
+    }
+}
