@@ -10,7 +10,7 @@
 
 body {
     background-color: black;
-    overflow: hidden; /* Hide overflow */
+    overflow: hidden; 
     font-family: 'Space Grotesk', sans-serif;
 }
 
@@ -83,7 +83,6 @@ body {
 .btns{
     height: 50%;
     width: 200px;
-    /* background-color: #fff; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -127,7 +126,7 @@ body {
     letter-spacing: 1px;
 }
 
-/* Remove all .btn, .btn::before, .btn::after, and related glow styles */
+
 
 
 @media screen and (max-width: 752px) {
@@ -181,7 +180,6 @@ h1{
     font-family: 'Space Grotesk', sans-serif;
     margin-top: 20px;
     margin-bottom: 12px;
-    /* background-color: #fff; */
     width: 60%;
     margin-left: auto;
     margin-right: auto;
@@ -189,14 +187,14 @@ h1{
 }
 
 .looper{
-    position: fixed; /* Take out of normal flow */
-    bottom: 0;       /* Stick to bottom */
+    position: fixed; 
+    bottom: 0;       
     left: 0;
     width: 100vw;
     display: flex;
     align-items: center;
     justify-content: center;
-    z-index: 1000;   /* Make sure it's on top */
+    z-index: 1000;   
     font-family: 'Space Grotesk', sans-serif;
 }
 
@@ -217,10 +215,10 @@ h1{
     font-family: 'Space Grotesk', sans-serif;
 }
 .btn:hover {
-    opacity: 1;
-    transform: scale(1);
-    transition: all 0.3s linear;
-    font-family: 'Space Grotesk', sans-serif;
+    opacity: 1 !important;
+    transform: scale(1) !important;
+    transition: all 0.3s linear !important;
+    font-family: 'Space Grotesk', sans-serif !important;
 }
 
 .btn::before,
